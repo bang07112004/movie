@@ -5,7 +5,7 @@ export default function MenuItem() {
     <div className="flex items-center gap-5 m-4">
       <Link
         href="/"
-        className="flex group items-center gap-1 rounded-2xl shadow-md shadow-black hover:shadow-lg hover:shadow-black hover:scale-110 active:shadow-md active:shadow-black active:scale-90 px-4 py-3 bg-gray-300 w-fit"
+        className="flex group items-center gap-1 dark:border-black border-gray-700 border-4 rounded-2xl shadow-md dark:text-gray-500 shadow-black hover:shadow-lg hover:shadow-black hover:scale-110 active:shadow-md active:shadow-black active:scale-90 px-4 py-3 bg-gray-300 w-fit"
       >
         <p className="font-bold text-2xl hidden sm:inline">Home</p>
         <svg
@@ -25,7 +25,7 @@ export default function MenuItem() {
       </Link>
       <Link
         href="/about"
-        className="flex group items-center gap-1 rounded-2xl shadow-md shadow-black hover:shadow-lg hover:shadow-black hover:scale-110 active:shadow-md active:shadow-black active:scale-90 px-4 py-3 bg-gray-300 w-fit"
+        className="flex group items-center gap-1 dark:border-black border-gray-700 border-4 rounded-2xl shadow-md dark:text-gray-500 shadow-black hover:shadow-lg hover:shadow-black hover:scale-110 active:shadow-md active:shadow-black active:scale-90 px-4 py-3 bg-gray-300 w-fit"
       >
         <p className="font-bold text-2xl hidden sm:inline">About</p>
         <svg
