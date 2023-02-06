@@ -18,10 +18,10 @@ const Header = () => {
         >
           <Image
             src={avatar.src}
-            width={500}
-            height={500}
+            width={1000}
+            height={1000}
             alt="My avatar"
-            className="md:rounded-full w-[50px] h-[50px] rounded-full md:h-24 md:w-24 border-2 dark:border-black transition-all duration-500 border-gray-700 group-hover:border-amber-400"
+            className="md:rounded-full w-[44px] h-[44px] rounded-full md:h-24 md:w-24 border-2 dark:border-black transition-all duration-500 border-gray-700 group-hover:border-amber-400"
           />
           <p className="text-3xl hidden sm:inline-block group-hover:text-amber-400 transition-all duration-500">
             My MovieDb
