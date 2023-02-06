@@ -14,7 +14,7 @@ const Header = () => {
         <DarkModeSwitch />
         <Link
           href="/"
-          className="flex gap-2 py-3 bg-transparent rounded-full items-center mx-4 group  bg-gray-300 shadow-md dark:text-gray-500 shadow-black px-4  hover:shadow-lg hover:shadow-black hover:scale-110 active:shadow-md active:shadow-black active:scale-90"
+          className="flex gap-2 py-3 bg-transparent shadow-none rounded-full items-center mx-4 group  bg-gray-300 md:shadow-md dark:text-gray-500 md:shadow-black px-4  md:hover:shadow-lg md:hover:shadow-black md:hover:scale-110 md:active:shadow-md md:active:shadow-black md:active:scale-90"
         >
           <Image
             src={avatar.src}
