@@ -5,9 +5,9 @@ export default function MenuItem() {
     <div className="flex items-center gap-5 m-4">
       <Link
         href="/"
-        className="flex group items-center gap-1 rounded-2xl shadow-md dark:text-gray-500 shadow-black hover:shadow-lg hover:shadow-black hover:scale-110 active:shadow-md active:shadow-black active:scale-90 px-4 py-3 bg-transparent w-fit"
+        className="flex group transition-all duration-500 items-center gap-1 rounded-2xl shadow-md dark:text-gray-500 shadow-black hover:shadow-lg hover:shadow-black hover:scale-110 active:shadow-md active:shadow-black active:scale-90 px-4 py-3 bg-transparent w-fit"
       >
-        <p className="font-bold text-2xl hidden sm:inline group-hover:text-amber-400">
+        <p className="font-bold text-2xl hidden sm:inline group-hover:text-amber-400 transition-all duration-500">
           Home
         </p>
         <svg
@@ -16,7 +16,7 @@ export default function MenuItem() {
           viewBox="0 0 24 24"
           strokeWidth={1.5}
           stroke="currentColor"
-          className="w-8 h-8 group-hover:text-amber-400"
+          className="w-8 h-8 group-hover:text-amber-400 transition-all duration-500"
         >
           <path
             strokeLinecap="round"
@@ -27,9 +27,9 @@ export default function MenuItem() {
       </Link>
       <Link
         href="/about"
-        className="flex group items-center gap-1   rounded-2xl shadow-md dark:text-gray-500 shadow-black hover:shadow-lg hover:shadow-black hover:scale-110 active:shadow-md active:shadow-black active:scale-90 px-4 py-3 bg-transparent w-fit"
+        className="flex group items-center gap-1 transition-all duration-500  rounded-2xl shadow-md dark:text-gray-500 shadow-black hover:shadow-lg hover:shadow-black hover:scale-110 active:shadow-md active:shadow-black active:scale-90 px-4 py-3 bg-transparent w-fit"
       >
-        <p className="font-bold text-2xl hidden sm:inline group-hover:text-amber-400">
+        <p className="font-bold text-2xl hidden sm:inline group-hover:text-amber-400 transition-all duration-500">
           About
         </p>
         <svg
@@ -38,7 +38,7 @@ export default function MenuItem() {
           viewBox="0 0 24 24"
           strokeWidth={1.5}
           stroke="currentColor"
-          className="w-8 h-8 group-hover:text-amber-400"
+          className="w-8 h-8 group-hover:text-amber-400 transition-all duration-500"
         >
           <path
             strokeLinecap="round"

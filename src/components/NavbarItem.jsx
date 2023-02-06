@@ -20,15 +20,17 @@ function NavbarItem({ title, param }) {
             className={`flex mx-3 gap-2 px-3 py-3 group ${
               genre &&
               genre === param &&
-              "bg-transparent shadow-md scale-110 shadow-black rounded-2xl text-amber-600"
+              "bg-transparent shadow-md scale-110 shadow-black rounded-2xl text-amber-600 transition-all duration-500"
             }`}
           >
-            <h1 className="group-hover:text-amber-600 ">{title}</h1>
+            <h1 className="group-hover:text-amber-600 transition-all duration-500">
+              {title}
+            </h1>
             <svg
               xmlns="http://www.w3.org/2000/svg"
               viewBox="0 0 24 24"
               fill="currentColor"
-              className="w-8 h-8 group-hover:text-amber-600 "
+              className="w-8 h-8 group-hover:text-amber-600 transition-all duration-500 "
             >
               <path
                 fillRule="evenodd"
@@ -43,15 +45,17 @@ function NavbarItem({ title, param }) {
             className={`flex gap-2 mx-3 px-3 py-3 group ${
               genre &&
               genre === param &&
-              "bg-transparent shadow-md scale-110 shadow-black rounded-2xl text-amber-600"
+              "bg-transparent shadow-md scale-110 shadow-black rounded-2xl text-amber-600 transition-all duration-500"
             }`}
           >
-            <h1 className="group-hover:text-amber-600">{title}</h1>
+            <h1 className="group-hover:text-amber-600 transition-all duration-500">
+              {title}
+            </h1>
             <svg
               xmlns="http://www.w3.org/2000/svg"
               viewBox="0 0 24 24"
               fill="currentColor"
-              className="w-8 h-8 group-hover:text-amber-600"
+              className="w-8 h-8 group-hover:text-amber-600 transition-all duration-500"
             >
               <path
                 fillRule="evenodd"

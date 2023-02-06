@@ -12,7 +12,7 @@ function DarkModeSwitch() {
         (currentTheme === "dark" ? (
           <div
             onClick={() => setTheme("light")}
-            className="cursor-pointer hover:scale-125 active:scale-90"
+            className="cursor-pointer hover:scale-150 active:scale-90 transition-all duration-500"
           >
             <svg
               xmlns="http://www.w3.org/2000/svg"
@@ -26,7 +26,7 @@ function DarkModeSwitch() {
         ) : (
           <div
             onClick={() => setTheme("dark")}
-            className="cursor-pointer hover:scale-125 active:scale-90"
+            className="cursor-pointer hover:scale-150 active:scale-90 transition-all duration-500"
           >
             {" "}
             <svg
