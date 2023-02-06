@@ -40,7 +40,7 @@ function NavbarItem({ title, param }) {
             </svg>
           </div>
         )}
-        {title === "Top Rated" && (
+        {title === "Top" && (
           <div
             className={`flex gap-2 mx-3 px-3 py-3 group ${
               genre &&
