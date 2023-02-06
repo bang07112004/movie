@@ -7,14 +7,16 @@ export default function MenuItem() {
         href="/"
         className="flex group items-center gap-1 dark:border-black border-gray-700 border-4 rounded-2xl shadow-md dark:text-gray-500 shadow-black hover:shadow-lg hover:shadow-black hover:scale-110 active:shadow-md active:shadow-black active:scale-90 px-4 py-3 bg-gray-300 w-fit"
       >
-        <p className="font-bold text-2xl hidden sm:inline">Home</p>
+        <p className="font-bold text-2xl hidden sm:inline group-hover:text-amber-400">
+          Home
+        </p>
         <svg
           xmlns="http://www.w3.org/2000/svg"
           fill="none"
           viewBox="0 0 24 24"
           strokeWidth={1.5}
           stroke="currentColor"
-          className="w-8 h-8"
+          className="w-8 h-8 group-hover:text-amber-400"
         >
           <path
             strokeLinecap="round"
@@ -25,16 +27,18 @@ export default function MenuItem() {
       </Link>
       <Link
         href="/about"
-        className="flex group items-center gap-1 dark:border-black border-gray-700 border-4 rounded-2xl shadow-md dark:text-gray-500 shadow-black hover:shadow-lg hover:shadow-black hover:scale-110 active:shadow-md active:shadow-black active:scale-90 px-4 py-3 bg-gray-300 w-fit"
+        className="flex group items-center gap-1  dark:border-black border-gray-700 border-4 rounded-2xl shadow-md dark:text-gray-500 shadow-black hover:shadow-lg hover:shadow-black hover:scale-110 active:shadow-md active:shadow-black active:scale-90 px-4 py-3 bg-gray-300 w-fit"
       >
-        <p className="font-bold text-2xl hidden sm:inline">About</p>
+        <p className="font-bold text-2xl hidden sm:inline group-hover:text-amber-400">
+          About
+        </p>
         <svg
           xmlns="http://www.w3.org/2000/svg"
           fill="none"
           viewBox="0 0 24 24"
           strokeWidth={1.5}
           stroke="currentColor"
-          className="w-8 h-8"
+          className="w-8 h-8 group-hover:text-amber-400"
         >
           <path
             strokeLinecap="round"
