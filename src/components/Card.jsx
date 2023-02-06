@@ -4,7 +4,7 @@ import React from "react";
 
 function Card({ result }) {
   return (
-    <div className="cursor-pointer w-[90%] group shadow-md dark:shadow-slate-400 shadow-black p-3 bg-transparent hover:shadow-lg dark:hover:shadow-slate-500 hover:shadow-black hover:scale-105 rounded-2xl m-4 transition-all duration-500">
+    <div className="cursor-pointer m-auto my-7 w-[90%] group shadow-md dark:shadow-slate-400 shadow-black p-3 bg-transparent hover:shadow-lg dark:hover:shadow-slate-500 hover:shadow-black hover:scale-105 rounded-2xl transition-all duration-500">
       <Link href={`/movie/${result.id}`}>
         <Image
           src={`https://image.tmdb.org/t/p/original/${
@@ -14,8 +14,8 @@ function Card({ result }) {
             maxWidth: "100%",
             height: "auto",
           }}
-          width={500}
-          height={400}
+          width={400}
+          height={350}
           className="rounded-lg group-hover:opacity-80 transition-opacity duration-500 w-[100%]"
           alt="Poster"
           placeholder="blur"

@@ -1,6 +1,5 @@
 import BackToTopButton from "@/components/BackToTopButton ";
 import Results from "@/components/Results";
-import Link from "next/link";
 
 const API_KEY = process.env.API_KEY;
 export default async function Home({ searchParams }) {
@@ -10,7 +9,6 @@ export default async function Home({ searchParams }) {
     const url = `https://api.themoviedb.org/3/${
       genre === "fetchTopRated" ? "movie/top_rated" : "trending/all/week"
     }?api_key=${API_KEY}&language=en-US&page=${i}`;
-
     const res = await fetch(url, { next: { revalidate: 10000 } });
     if (!res.ok) throw new Error("Failed to fetch data");
 
