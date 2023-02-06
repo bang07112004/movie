@@ -1,3 +1,4 @@
+import BackToTopButton from "@/components/BackToTopButton ";
 import Header from "@/components/Header";
 import Navbar from "@/components/Navbar";
 import SearchBox from "@/components/SearchBox";
@@ -16,6 +17,7 @@ export default function RootLayout({ children }) {
           {/* Searchbox */}
           <SearchBox />
           {children}
+          <BackToTopButton />
         </Provider>
       </body>
     </html>
