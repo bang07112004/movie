@@ -21,7 +21,7 @@ const Header = () => {
             width={200}
             height={200}
             alt="My avatar"
-            className="rounded-full h-12 w-12 md:h-24 md:w-24 border-2 dark:border-black transition-all duration-500 border-gray-700 group-hover:border-amber-400"
+            className="rounded-full h-16 w-16 md:h-24 md:w-24 border-2 dark:border-black transition-all duration-500 border-gray-700 group-hover:border-amber-400"
           />
           <p className="text-3xl hidden sm:inline-block group-hover:text-amber-400 transition-all duration-500">
             My MovieDb
