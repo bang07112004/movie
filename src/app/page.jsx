@@ -7,7 +7,13 @@ export default async function Home({ searchParams }) {
   let film = [];
   for (let i = 1; i <= 20; i++) {
     const url = `https://api.themoviedb.org/3/${
-      genre === "fetchTopRated" ? "movie/top_rated" : "trending/all/week"
+      genre === "fetchTopRated"
+        ? "movie/top_rated"
+        : genre === "fetchTrending"
+        ? "trending/all/week"
+        : genre === "fetchTV"
+        ? "tv/top_rated"
+        : "undefined"
     }?api_key=${API_KEY}&language=en-US&page=${i}`;
     const res = await fetch(url, { next: { revalidate: 10000 } });
     if (!res.ok) throw new Error("Failed to fetch data");

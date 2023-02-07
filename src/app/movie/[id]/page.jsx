@@ -27,6 +27,7 @@ async function MoviePage({ params }) {
           placeholder="blur"
           blurDataURL="/spinner.svg"
         />
+
         <div className="p-4">
           <h2 className="text-2xl my-3 font-bold">
             {movie.title || movie.name}
