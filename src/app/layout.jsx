@@ -8,7 +8,7 @@ import Provider from "./Provider";
 export default function RootLayout({ children }) {
   return (
     <html lang="en">
-      <body>
+      <body className="scrollbar scrollbar-track-gray-400/20 scrollbar-thumb-amber-400">
         <Provider>
           {/* Header */}
           <Header />

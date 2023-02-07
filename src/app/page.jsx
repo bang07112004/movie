@@ -5,7 +5,7 @@ const API_KEY = process.env.API_KEY;
 export default async function Home({ searchParams }) {
   const genre = searchParams.genre || "fetchTrending";
   let film = [];
-  for (let i = 1; i <= 10; i++) {
+  for (let i = 1; i <= 20; i++) {
     const url = `https://api.themoviedb.org/3/${
       genre === "fetchTopRated" ? "movie/top_rated" : "trending/all/week"
     }?api_key=${API_KEY}&language=en-US&page=${i}`;
