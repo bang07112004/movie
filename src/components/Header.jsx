@@ -10,7 +10,7 @@ const Header = () => {
       <div>
         <MenuItem />
       </div>
-      <div className="flex gap-2 items-center">
+      <div className="flex sm:gap-1 md:gap-2 items-center">
         <DarkModeSwitch />
         <Link
           href="/"
