@@ -7,8 +7,10 @@ function Navbar() {
   const genre = searchParams.get("genre");
   return (
     <div className="flex flex-col justify-center dark:bg-gray-600 py-3 items-center bg-gray-700 lg:text-3xl">
-      <NavbarItem title="Trending" param="fetchTrending" />
-      <NavbarItem title="Top Rated" param="fetchTopRated" />
+      <div className="flex">
+        <NavbarItem title="Trending" param="fetchTrending" />
+        <NavbarItem title="Top Rated" param="fetchTopRated" />
+      </div>
       <NavbarItem title="TV Top Rated" param="fetchTV" />
     </div>
   );
