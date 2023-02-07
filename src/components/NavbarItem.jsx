@@ -41,7 +41,7 @@ function NavbarItem({ title, param }) {
           </div>
         )}
         <div className="flex flex-col">
-          {title === "Top" && (
+          {title === "Top Rated" && (
             <div
               className={`flex gap-2 mx-3 px-3 py-3 group ${
                 genre &&
@@ -66,7 +66,7 @@ function NavbarItem({ title, param }) {
               </svg>
             </div>
           )}
-          {title === "TV" && (
+          {title === "TV Top Rated" && (
             <div
               className={`flex gap-2 mx-3 px-3 py-3 group ${
                 genre &&
